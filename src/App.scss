@@ -1,0 +1,18 @@
+#root {
+  width: 1500px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  margin: auto;
+
+  & main {
+    padding: 0 1rem;
+  }
+  &__product-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
